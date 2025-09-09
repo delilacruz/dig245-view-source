@@ -3,3 +3,24 @@
 p {
     font-size: 49px;
 }
+
+.block {
+    padding: 10px;
+    color: white;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+    /* I had to google how to do the transitions because I didn't like how
+    the blocks would just pop away... it was very ugly*/
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
