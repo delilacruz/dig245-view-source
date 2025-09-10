@@ -1,17 +1,43 @@
 
 /* css */
+
+body {
+    background-color: black;
+}
+
 p {
-    font-size: 49px;
+    font-size: 48px;
     font-family: "Courier New";
+    color: white;
 }
 
 .block {
-    padding: 10px;
+    padding: 13px;
     color: white;
     position: absolute;
     transition: 0.3s ease-in-out;
     /* I had to google how to do the transitions because I didn't like how
     the blocks would just pop away... it was very ugly*/
+    font-family: "Gill Sans";
+    font-size: 30px;
+    font-weight: bold;
+    width: 200px;
+    text-align: center
+   ;
+}
+
+.altblock {
+    ppadding: 13px;
+    color: black;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+    /* I had to google how to do the transitions because I didn't like how
+    the blocks would just pop away... it was very ugly*/
+    font-family: "Gill Sans";
+    font-size: 30px;
+    font-weight: bold;
+    width: 200px;
+    text-align: center
 }
 
 .red {
@@ -28,4 +54,14 @@ p {
 
 .block:hover {
     background-color: transparent;
+    color: transparent;
+}
+
+.altblock:hover {
+    background-color: transparent;
+    color: transparent;
+}
+
+div {
+    position: relative;
 }
